@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "b23a3afe-990b-4c49-9d32-b91afa87fe4b",
+		"name": "WordGame",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/start",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/start"
+			},
+			"response": []
+		},
+		{
+			"name": "check",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"word\":\"xxxxx\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/check"
+			},
+			"response": []
+		}
+	]
+}
